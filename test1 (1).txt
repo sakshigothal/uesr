@@ -1,0 +1,53 @@
+1.]Java program processing always starts with main() method
+(A) True
+(B) False
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.]The main() method of an application has to be public. Otherwise, it could not be called by a Java interpreter. Is that true?
+(A) True
+(B) False
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.] How many times 'Hello' is printed?
+public class myFirstClass{
+public static void main(String[] args){
+ for(int i = 0; i<5; i++)
+ {
+ System.out.println("Hello");
+ break;
+ }
+}
+}
+
+(A) 5
+(B) 4
+(C) 1
+(D) 0
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.]public class myclass{
+  
+public static void main(String[] args){
+  
+  int a = 5;
+  a +=5;
+  
+  switch(a){
+   
+    case 5: System.out.println("5");
+	break;
+    case 10: System.out.println("10");
+	break;
+    default: System.out.println("0");
+}
+}
+}
+
+(A) 5
+(B) 10
+(C) 0
+(D) Compilation Error
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+5.] Print 1 to 30 and find out which number is even & odd.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+6.] Write a program to calculate the sum of first 10 natural number.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+7.]  Write a program to check months and apply switch statement
+------------------------------------------------------------------------------------------------------------------------------------------------------------
